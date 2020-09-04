@@ -1,0 +1,16 @@
+.tel__icon {
+    display: none;
+    background-image: url("../../img/phone-white-outline.svg");
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 1000px) {
+    .tel__number {
+        display: none;
+    }
+    .tel__icon {
+        display: block;
+
+    }
+}

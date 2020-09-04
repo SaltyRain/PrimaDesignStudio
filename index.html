@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Студия дизайна интерьеров Prima Design Studio</title>
 </head>
 <body>
 
-    <header class="header">
+    <header class="header container">
         <div class="logo header--logo"></div>
         <!-- /.logo header--logo -->
         <ul class="nav header--nav">
-            <li class="nav--item"></li>
-            <li class="nav--item"></li>
-            <li class="nav--item"></li>
-            <li class="nav--item"></li>
-            <li class="nav--item"></li>
+            <a href=""><li class="nav--item">О студии</li></a>
+            <a href=""><li class="nav--item">Портфолио</li></a>
+            <a href=""><li class="nav--item">Процесс работы</li></a>
+            <a href=""><li class="nav--item">Цены</li></a>
+            <a href=""><li class="nav--item">Контакты</li></a>
         </ul>
         <!-- /.nav header--nav -->
-        <button class="button header--request-button"></button> 
+        <button class="button header--request-button"><span>Оставить заявку</span></button> 
         <!-- /.button header--request-button -->
-        <a href="" class="tel header--tel">
-            <span class="tel__number"></span> 
+        <a href="tel:+799912345678" class="tel header--tel">
+            <span class="tel__number">+7 (999) 123-56-78</span> 
+            <div class="tel__icon"></div>
 
         </a> 
         <!-- /.tel header--tel -->
+
+        <!-- <button class="hamburger hamburger--3dx" type="button">
+            <span class="hamburger-box hamburger--3dx">
+              <span class="hamburger-inner hamburger--3dx"></span>
+            </span>
+          </button> -->
+          <button class="action-buttons__item hamburger hamburger--squeeze" id="hamburger" type="menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+        </button>
     </header>
     <!-- /.header -->
 
+    <main>
     <section class="banner">
         <h1 class="visually-hidden">Студия дизайна интерьеров в Санкт-Петербурге Prima Design Studio</h1>
 
@@ -114,9 +131,11 @@
 
         <div class="img"></div>
 
-        
+
     </div>
     <!-- /.section prices container -->
+
+    </main>
 
     <footer class="footer">
         <ul class="social-media">

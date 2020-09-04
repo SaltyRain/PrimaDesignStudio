@@ -1,0 +1,12 @@
+.button {
+    outline: none;
+    color: $white;
+    background-color: $black;
+    border: 1px solid $white;
+    height: 42px;
+    width: 210px;
+
+    span {
+        padding: 0;
+    }
+}
