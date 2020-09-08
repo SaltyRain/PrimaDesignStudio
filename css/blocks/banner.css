@@ -1,0 +1,18 @@
+.banner {
+  background-image: url("../../img/kam-idris-kyt0PkBSCNQ-unsplash.jpg");
+  box-shadow: inset 3000px 3000px 100px rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  position: relative; }
+
+.banner--logo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .banner--logo img {
+    width: 184px; }
+
+.banner--text {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  display: block; }

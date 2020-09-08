@@ -13,7 +13,11 @@
 <body>
 
     <header class="header container">
-        <div class="logo header--logo"></div>
+        <div class="logo header--logo">
+            <a href="">
+            <img src="/img/prima_white.png" alt="">
+            </a>
+        </div>
         <!-- /.logo header--logo -->
         <ul class="nav header--nav">
             <a href=""><li class="nav--item">О студии</li></a>
@@ -23,25 +27,24 @@
             <a href=""><li class="nav--item">Контакты</li></a>
         </ul>
         <!-- /.nav header--nav -->
-        <button class="button header--request-button"><span>Оставить заявку</span></button> 
-        <!-- /.button header--request-button -->
-        <a href="tel:+799912345678" class="tel header--tel">
-            <span class="tel__number">+7 (999) 123-56-78</span> 
-            <div class="tel__icon"></div>
+        <div class="action-buttons">
+            <button class="button header--request-button"><span>Оставить заявку</span></button> 
+            <!-- /.button header--request-button -->
+            <a href="tel:+799912345678" class="tel header--tel">
+                <span class="tel__number">+7 (999) 123-56-78</span> 
+                <div class="tel__icon"></div>
+    
+            </a> 
+            <!-- /.tel header--tel -->
+    
+              <button class="header--hamburger hamburger hamburger--squeeze" id="hamburger" type="menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+            </button>
+        </div>
+        <!-- /.action-buttons -->
 
-        </a> 
-        <!-- /.tel header--tel -->
-
-        <!-- <button class="hamburger hamburger--3dx" type="button">
-            <span class="hamburger-box hamburger--3dx">
-              <span class="hamburger-inner hamburger--3dx"></span>
-            </span>
-          </button> -->
-          <button class="action-buttons__item hamburger hamburger--squeeze" id="hamburger" type="menu">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-              </span>
-        </button>
     </header>
     <!-- /.header -->
 
@@ -49,7 +52,10 @@
     <section class="banner">
         <h1 class="visually-hidden">Студия дизайна интерьеров в Санкт-Петербурге Prima Design Studio</h1>
 
-        <div class="logo banner--logo"></div>
+        <div class="logo banner--logo">
+            <img src="/img/prima_white.png" alt="">
+            <span class="banner--text">Prima Design Studio</span>
+        </div>
         <!-- /.logo banner--logo -->
         <button class="arrow scroll-down"></button> <!-- /.arrow scroll-down -->
     </section>

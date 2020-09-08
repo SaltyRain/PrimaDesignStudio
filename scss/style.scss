@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: $black;
     color: $white;
+    margin: auto;
 }
 
 a {
@@ -44,10 +45,19 @@ h2 {
 .container {
     max-width: 1300px;
     margin: auto;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 @media (max-width: 1000px) {
     .container {
-        max-width: 960px;
+        // max-width: 960px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 728px;
     }
 }
 
@@ -57,7 +67,11 @@ h2 {
 @import "./blocks/button.scss";
 @import "./blocks/nav.scss";
 @import "./blocks/tel.scss";
+@import "./blocks/action-buttons.scss";
 @import "./blocks/hamburger.scss";
+
 
 /* Части страницы */
 @import "./blocks/header.scss";
+
+@import "./blocks/banner.scss";

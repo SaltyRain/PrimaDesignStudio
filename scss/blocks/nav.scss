@@ -5,3 +5,9 @@
 .nav--item {
     padding-left: 18px;
 }
+
+@media (max-width: 768px) {
+    .nav--item {
+        display: none;
+    }
+}
