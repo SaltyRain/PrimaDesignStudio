@@ -1,5 +1,13 @@
 @import "colors";
 
+
+@font-face {
+	font-family: 'Aesthetic-White';
+    src: url('../fonts/Aesthetic-White.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -15,9 +23,14 @@ body {
     margin: auto;
 }
 
+
 a {
     color: inherit;
     text-decoration: none;
+}
+
+img {
+    width: 100%;
 }
 
 .visually-hidden {
@@ -38,6 +51,15 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: normal;
+
+    margin-top: 0;
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 /* Контейнеры */
@@ -60,7 +82,34 @@ h2 {
         max-width: 728px;
     }
 }
+@media (max-width: 480px) {
+    .container {
+        max-width: 440px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+}
 
+/* Общие классы */
+.accent {
+    color: $orange;
+    font-size: 1.2em;
+}
+.sign {
+    font-family: "Aesthetic-White", serif;
+    font-size: 32px;
+
+    display: block;
+    text-align: center;
+    
+    
+    position: absolute;
+    bottom: -20%;
+    left: 40%;
+}
 
 /* Элементы */
 @import "./blocks/logo.scss";
@@ -69,9 +118,15 @@ h2 {
 @import "./blocks/tel.scss";
 @import "./blocks/action-buttons.scss";
 @import "./blocks/hamburger.scss";
+@import "./blocks/image-block.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/project.scss";
+@import "./blocks/gallery.scss";
 
 
 /* Части страницы */
 @import "./blocks/header.scss";
-
 @import "./blocks/banner.scss";
+@import "./blocks/about.scss";
+@import "./blocks/magazine.scss";
+@import "./blocks/portfolio.scss";

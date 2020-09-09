@@ -1,0 +1,23 @@
+.image-block {
+    position: relative;
+    max-width: 380px;
+}
+
+.image-block:before {
+    content: '';
+    position: absolute;
+    border: 1px solid $white;
+    width: 100%;
+    top: 30px;
+    bottom: -30px;
+    left: 30px;
+    -webkit-transition: bottom .3s ease-out;
+    transition: bottom .3s ease-out;
+}
+
+@media (max-width: 480px) {
+    .image-block {
+        max-width: 280px;
+        
+    }
+}

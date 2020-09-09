@@ -1,0 +1,22 @@
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery--wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 500px) {
+    .gallery--wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.gallery--open-more {
+    text-align: center;
+    margin: auto;
+}

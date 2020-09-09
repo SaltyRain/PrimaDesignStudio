@@ -1,0 +1,40 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider--arrow {
+    background-image: url("../../img/arrow.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 40px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    &_right {
+        transform: rotate(180deg);
+    }
+
+    &:hover, :focus {
+        filter: invert(92%) sepia(7%) saturate(590%) hue-rotate(322deg) brightness(109%) contrast(91%);
+    }
+}
+
+.slider-item--heading {
+    max-width: 200px;
+    font-weight: normal;
+}
+
+.slider-item--text {
+    display: block;
+    max-width: 200px;
+    color: $orange;
+    font-size: 1.1em;
+}
